@@ -1143,7 +1143,6 @@ nav {
 
 .resource-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 2rem;
 }
 
@@ -1269,7 +1268,6 @@ nav {
 
 .contact-wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
 	gap: 3rem;
 	background: rgba(255, 255, 255, 0.95);
 	padding: 3rem;
@@ -1586,4 +1584,5 @@ footer {
 	.tab-btn {
 		width: 100%;
 	}
+
 }
